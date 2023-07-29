@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* css for body */
+
+body {
+    background-color: rgb(190, 188, 184);
+}
+
+
+/* css for navber  */
+
+nav {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(139, 10, 252, 0.897);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+}
+
+.name {
+    margin-top: 0px;
+    margin: 0px 20px;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    text-decoration: overline;
+    text-shadow: 3px 3px black;
+}
+
+.text {
+    width: 100%;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 2px;
+    margin-right: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li a:hover {
+    color: #fff;
+    text-decoration: overline;
+}
+
+.search-go {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.sign_in {
+    margin-left: 3px;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    background-color: green;
+    padding: 2px 3px;
+    font-size: 20px;
+}
+
+.sign_up {
+    margin-left: 3px;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    background-color: red;
+    padding: 2px 3px;
+}
+
+
+/* css for content */
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* css for photos */
+
+div.img {
+    width: 90vw;
+    height: 40vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.img::before {
+    width: 90vw;
+    background: url("https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_960_720.jpg");
+    content: '';
+    height: 53vh;
+    opacity: .4;
+    position: absolute;
+    z-index: -1;
+    margin: 0px auto;
+}
+
+
+/* h1 {
+        width: 15rem;
+        color: rgb(1, 2, 8);
+        margin: 0px auto;
+        font-size: xx-large;
+        background-color: azure;
+    }
+    
+    h2 {
+        width: 15rem;
+        color: rgb(17, 40, 139);
+        margin: 5px auto;
+        color: rgb(17, 16, 16);
+        text-shadow: -2px -2px rgba(13, 72, 199, 0.87);
+    } */
+
+#box {
+    width: 80vw;
+    height: 50vh;
+    margin: 5px auto;
+    margin-top: 44px;
+}
+
+.box {
+    width: 50rem;
+    height: inherit;
+    display: grid;
+    justify-content: center;
+    overflow: hiddens;
+    /* border: 1px solid rgb(207, 194, 194); */
+    /* border: 1px solid green; */
+}
+
+.box img {
+    width: 20vw;
+    height: 25vh;
+    background-color: rgb(214, 217, 224);
+    margin-top: 100px;
+    border: 1px solid green;
+    border-radius: 20px;
+    /* animation: anima 2s 1 ease-in; */
+    transition: 2s;
+    overflow: hidden;
+}
+
+@keyframes anima {
+    0% {
+        margin-top: -10px;
+    }
+}
+
+#box-btn2 {
+    width: 100%;
+}
+
+.box-btn2 {
+    width: 20vw;
+    height: 30px;
+    margin: 0px auto;
+    background-color: rgba(139, 10, 252, 0.897);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-btn2:hover {
+    color: #fff;
+    transition: 2s;
+}
+
+.data {
+    width: 100%;
+    height: 2rem;
+}
+
+.info {
+    width: 70rem;
+    height: inherit;
+    text-align: center;
+    text-indent: 20%;
+    /* background-color: rgb(176, 211, 241); */
+    border-radius: 7px;
+    margin: 3px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-img {
+    display: flex;
+    gap: 10px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+
+.info-img-1 img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid darkcyan;
+    border-radius: 100%;
+    margin-top: 10px;
+    /* position: relative; */
+}
+
+.info-txt {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: Bold;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+/* css for abutus  */
+
+.abutus-txt {
+    width: 70rem;
+    height: 55vh;
+    text-align: justify;
+    margin: 3px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.abutus-txt::before {
+    width: 70vw;
+    background: url("Warframe0001.jpg");
+    content: '';
+    height: 53vh;
+    opacity: .4;
+    position: absolute;
+    left: 180px;
+    z-index: -1;
+    margin: 5px auto;
+}
+
+.text1 {
+    width: 40vw;
+    height: 50vh;
+    /* flex-wrap: wrap; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 25px;
+    /* background-color: black; */
+    margin: 0px auto;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 15px;
+}
+
+.text1 p {
+    padding: 3px 4px;
+    width: 40vw;
+    margin-top: 20px;
+}
+
+
+/* css for contec us  */
+
+.con2 {
+    width: 70vw;
+    height: 60vh;
+    margin: 2px auto;
+    /* background-color: aliceblue; */
+}
+
+.img2 {
+    width: 70vw;
+    height: 60vh;
+    margin: 2px auto;
+    margin-top: 30px;
+    /* opacity: .4; */
+    /* border: 1px solid goldenrod; */
+    /* background: url(" ")no-repeat center center; */
+}
+
+.img2::before {
+    width: 70vw;
+    background: url("https://media.istockphoto.com/photos/ready-to-give-you-the-assistance-you-need-picture-id667017610?k=20&m=667017610&s=612x612&w=0&h=jERZ9KS6jPqEaqzQhPyqwreVNJFiXQyBRF7wYBmAu3E=") no-repeat center center;
+    content: '';
+    height: 53vh;
+    opacity: .9;
+    position: absolute;
+    z-index: -1;
+    margin: 5px auto;
+}
+
+.span {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: rgb(173, 58, 58); */
+}
+
+span {
+    margin: 6px 7px;
+    color: black;
+}
+
+span a {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 6px 7px;
+    transition: .5s;
+}
+
+.con3 {
+    width: 600px;
+    align-items: flex-end;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 10rem;
+    margin-left: 42rem;
+}
+
+label {
+    text-decoration: underline cornsilk;
+    font-size: 25px;
+    margin: 2px 3px;
+    padding: 3px;
+}
+
+.add {
+    width: 600px;
+    height: 35px;
+    color: #fff;
+    margin: 2px auto;
+    margin-left: 10px;
+}
+
+img#wapp {
+    width: 35px;
+    height: 35px;
+}
+
+
+/* css for footer  */
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    border-radius: 20pxs;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.none {
+    text-decoration: none;
+}

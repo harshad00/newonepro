@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* css for contec us  */
+
+
+/* css for contec us  */
+
+.con2 {
+    width: 70vw;
+    height: 60vh;
+    margin: 2px auto;
+    /* background-color: aliceblue; */
+}
+
+.img2 {
+    width: 70vw;
+    height: 60vh;
+    margin: 2px auto;
+    margin-top: 30px;
+    /* opacity: .4; */
+    /* border: 1px solid goldenrod; */
+    /* background: url(" ")no-repeat center center; */
+}
+
+.img2::before {
+    width: 70vw;
+    background: url("https://media.istockphoto.com/photos/ready-to-give-you-the-assistance-you-need-picture-id667017610?k=20&m=667017610&s=612x612&w=0&h=jERZ9KS6jPqEaqzQhPyqwreVNJFiXQyBRF7wYBmAu3E=") no-repeat center center;
+    content: '';
+    height: 53vh;
+    opacity: .9;
+    position: absolute;
+    z-index: -1;
+    margin: 5px auto;
+}
+
+.span {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: rgb(173, 58, 58); */
+}
+
+span {
+    margin: 6px 7px;
+    color: black;
+}
+
+span a {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 6px 7px;
+    transition: .5s;
+}
+
+.con3 {
+    width: 600px;
+    align-items: flex-end;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 10rem;
+    margin-left: 42rem;
+}
+
+label {
+    text-decoration: underline cornsilk;
+    font-size: 25px;
+    margin: 2px 3px;
+    padding: 3px;
+}
+
+.add {
+    width: 600px;
+    height: 35px;
+    color: #fff;
+    margin: 2px auto;
+    margin-left: 10px;
+}
+
+.co {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.co1 {
+    width: 200px;
+    height: 200px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid slateblue;
+    border-radius: 100%;
+}
+
+
+/* css fpr footar  */
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    border-radius: 20pxs;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.none {
+    text-decoration: none;
+}
